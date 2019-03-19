@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Uploader.Models.User>
+
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<br />
+<br />
+
+<div>
+
+    <h3>Dodaj nowego użytkownika</h3>
+    @using (Html.BeginForm("AddUser", "Account", FormMethod.Post))
+    {
+
+        <label>Podaj E-mail :  <input type="text" name="emailUser" id="emailUser" style=" margin-left: 5px;" /></label>
+        <br /><label>Podaj hasło :  <input type="password" name="passUser" id="passUser" style="margin-left: 10px;" /></label>
+        <br /><select id="roles" name="roles" class="selectpicker" style=" margin-left: 101px; margin-bottom: 10px;">
+            <option value="teoretyk">teoretyk</option>
+            <option value="doswiadczalny">doswiadczalny</option>
+        </select>
+        <br /><input type="submit" id="btnAddUser" value="Dodaj użytkownika" />
+    }
+    <br />
+    <h2>Lista zarejestrowanych osób</h2>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Mail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                Grupa
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Roles)
+                </td>
+                <td>
+                    <!--  @Html.ActionLink("Delete", "Delete", new { id = item.Id })-->
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+    <p>
+        @Html.ActionLink("Back to List", "Index", "FileSystem")
+    </p>

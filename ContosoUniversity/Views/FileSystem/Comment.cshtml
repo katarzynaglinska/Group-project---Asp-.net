@@ -1,0 +1,37 @@
+﻿@model Uploader.Models.Entry
+
+
+@{
+    ViewBag.Title = "Komentarze";
+}
+
+<h2>Komentarze</h2>
+<br />
+@using (Html.BeginForm("Comment", "FileSystem", FormMethod.Post))
+{
+    @Html.Hidden("id", @Model.Id)
+    <input type="text" name="text" id="text" />
+    <input type="submit" id="btnComment" value="Dodaj komentarz" />
+}
+<br />
+
+<dd>
+    <table class="table">
+        <h4>Lista komentarzy</h4>
+        @foreach (var item in Model.Comments)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Text)
+                </td>
+                <td>
+                    Autor: @Html.DisplayFor(modelItem => item.Autor)
+                </td>
+            </tr>
+        }
+    </table>
+</dd>
+
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

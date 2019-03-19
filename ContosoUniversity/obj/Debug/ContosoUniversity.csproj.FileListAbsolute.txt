@@ -1,0 +1,117 @@
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll.config
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.pdb
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Owin.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\WebGrease.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csprojResolveAssemblyReference.cache
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+C:\Users\Katarzyna\Desktop\projekt_grupowy\testKategorie\crudFile\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll.config
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\ContosoUniversity.pdb
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\EntityFramework.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Owin.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\WebGrease.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Helpers.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Mvc.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Optimization.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.Razor.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Antlr3.Runtime.pdb
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Newtonsoft.Json.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csprojAssemblyReference.cache
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CoreCompileInputs.cache
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.CopyComplete
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.dll
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.pdb
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.Init.resources
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.cache
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.edit1.resources
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.FileSystem.resources
+C:\Users\Karola\Desktop\studia\II stopien\sem2\projekt zespołowy\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.FileSystem1.resources

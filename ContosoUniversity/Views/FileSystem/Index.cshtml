@@ -1,0 +1,227 @@
+﻿@model Uploader.Models.FileSystemModel
+
+<style>
+    @@media (min-width:991px){
+    .flex-row{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    }
+    .comment-name{
+        font-weight: bold;
+    }
+    .comment{
+        display:none;
+        width: 100%;
+        font-size: 12px;
+        padding-top: 12px;
+        min-height:50px;
+    }
+</style>
+
+<html>
+<head>
+    @Styles.Render("~/Content/Site.css")
+</head>
+<body>
+    <div class="row"><br /></div>
+    <div class="row">
+        <div class="col-md-6 root-container">
+            <div>
+                @if (Model.CurrentEntry != null)
+                {
+                    Uploader.Models.Entry entry = Model.CurrentEntry;
+                    while (entry != null)
+                    {
+                        <span>@entry.Name</span>
+                        entry = entry.ParentEntry;
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    <div class="row flex-row">
+        <div class="col-md-6 text-right">
+            @if (Model.CurrentEntry != null)
+            {
+                @Html.ActionLink("Dodaj folder", "Create", "FileSystem", new { id = Model.CurrentEntry.Id }, null)
+            }
+            else
+            {
+                @Html.ActionLink("Dodaj folder", "Create", "FileSystem", null, new { @class="btn btn-primary" })
+            }
+        </div>
+        <div class="col-md-6">
+            @if (Model.CurrentEntry != null)
+            {
+                using (Html.BeginForm("Upload", "FileSystem", new { id = Model.CurrentEntry.Id }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <div class="input-group">
+                        <label class="input-group-btn">
+                            <span class="btn btn-primary">
+                                Wybierz plik&hellip; <input type="file" name="postedFile" style="display: none;" required>
+                            </span>
+                        </label>
+                        <input type="text" class="form-control" readonly>
+                        <input class="url" type="text" name="url" style="display: none;" />
+                    </div>
+                    <button type="submit" id="btnUpload" class="btn btn-primary">Upload</button>
+                    <div>&nbsp;</div>
+
+                }
+
+                using (Html.BeginForm("DownloadFile", "FileSystem", FormMethod.Post))
+                {
+                    <input type="hidden" id="hfFileId" name="FileId" />
+                    <input type="submit" id="btnDownload" value="Download" style="display:none" />
+                }
+            }
+            else
+            {
+                using (Html.BeginForm("Upload", "FileSystem", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="input-group">
+                        <label class="input-group-btn">
+                            <span class="btn btn-primary">
+                                Wybierz plik&hellip; <input type="file" name="postedFile" style="display: none;" required>
+                            </span>
+                        </label>
+                        <input type="text" class="form-control" readonly>
+                        <input class="url" type="text" name="url" style="display: none;" />
+                    </div>
+
+                    <button type="submit" id="btnUpload" class="btn btn-primary">Upload</button>
+                    <div>&nbsp;</div>
+                }
+
+                using (Html.BeginForm("DownloadFile", "FileSystem", null, FormMethod.Post))
+                {
+                    <input type="hidden" id="hfFileId" name="FileId" />
+                    <input type="submit" id="btnDownload" value="Download" style="display:none" />
+                }
+            }
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <tr>
+                <th>Nazwa</th>
+                <th>Data dodania</th>
+                <th>Opis</th>
+                <th>Pobieranie</th>
+                <th style="width: 30%;">Komentarze</th>
+                <th>Usuwanie</th>
+            </tr>
+
+            @{int i = 0;}
+            @foreach (Uploader.Models.Entry entry in Model.Entries)
+            {
+                <tr>
+                    <td>
+                        @if (entry.Type == "dir")
+                        {
+                            <!--<i class="far fa-folder"></i>-->
+                            <img src="https://static.thenounproject.com/png/761990-84.png" style="max-width: 50px;" />
+
+                        }
+                        else
+                        {
+                            <!--<i class="far fa-file"></i>-->
+                            <img src="~/Uploads/@entry.Name" class="imageCell" style="max-width: 50px;" onerror="this.onerror=null;this.src='https://static.thenounproject.com/png/47347-200.png';" />
+                        }
+
+                        @Html.ActionLink(entry.Name, "Index", "FileSystem", new { id = entry.Id }, null)
+                    </td>
+                    <td>@entry.EnrollmentDate</td>
+                    <td>@entry.Description</td>
+                    <td>
+                        @if (@entry.Type != "dir")
+                        {
+                            <a href="javascript:;" onclick="DownloadFile(@entry.Id)">Download</a>
+                        }
+                    </td>
+                    <td>
+                        <a>@Html.ActionLink("Dodaj komentarz", "AddComment", "FileSystem", new { id = entry.Id }, null)</a>
+                        <br /><a class="buttonComment_@i" onclick="showComments(@i)"> Rozwiń/Zwiń listę komentarzy</a>
+                        <br />
+                        @foreach (var item in entry.Comments)
+                        {
+                            <div class="comment comment_@i">
+                                <span class="comment-name"> Komentarz:</span> @Html.DisplayFor(modelItem => item.Text) 
+                                <br /><span class="comment-name"> Autor:</span> @Html.DisplayFor(modelItem => item.Autor)
+                           
+                            </div>
+                        }
+                        </td>
+                        <td>
+                            <a>
+                                @Html.ActionLink("Usuń", "Delete", "FileSystem", new { id = entry.Id }, new { onclick = "return confirm('Czy na pewno chcesz usunąć?');" })
+                            </a>
+                        </td>
+                        </tr>
+                        i++;
+            }
+            @Html.Raw(TempData["msg"])
+        </table>
+
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+        
+
+        function DownloadFile(fileId) {
+            $("#hfFileId").val(fileId);
+            $("#btnDownload")[0].click();
+        }
+
+        function showComments(id) {
+            if ($('.comment_' + id + '').css("display") == "block" ){
+                $('.comment_' + id + '').css("display", "none");
+            }
+            else{
+                $('.comment_' + id + '').css("display", "block");
+            }
+            if( !$('.comment_' + id + '')[0] ){
+                alert("Lista komentarzy jest pusta");
+            }
+        }
+
+        $(function () {
+
+            // We can attach the `fileselect` event to all file inputs on the page
+            $(document).on('change', ':file', function () {
+                var input = $(this),
+                    numFiles = input.get(0).files ? input.get(0).files.length : 1,
+                    label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+                input.trigger('fileselect', [numFiles, label]);
+
+                $('.url').val(window.location);
+            });
+
+            // We can watch for our custom `fileselect` event like this
+            $(document).ready(function () {
+                $(':file').on('fileselect', function (event, numFiles, label) {
+
+                    var input = $(this).parents('.input-group').find(':text'),
+                        log = numFiles > 1 ? numFiles + ' files selected' : label;
+
+                    if (input.length) {
+                        input.val(log);
+                    } else {
+                        if (log) alert(log);
+                    }
+                    $('.url').val(window.location);
+                });
+            });
+
+
+
+        });
+    </script>
+    </body>
+</html>

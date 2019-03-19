@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Uploader.Models.User>
+
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<br />
+<br />
+<br />
+<br />
+
+<div>
+
+    @using (Html.BeginForm("AddUser", "Account", FormMethod.Post))
+    {
+        <input type="text" name="emailUser" id="emailUser" />
+        <input type="password" name="passUser" id="passUser" />
+        <input type="submit" id="btnAddUser" value="Dodaj osobę" />
+    }
+    <br />
+    <h2>Lista zarejestrowanych osób</h2>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>
